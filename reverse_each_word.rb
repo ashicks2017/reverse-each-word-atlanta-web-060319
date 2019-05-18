@@ -14,7 +14,7 @@ def reverse_each_word(string)
  orig_array.collect do |string|
  result_array << string.reverse
 end
- puts result_array.join(" ")
+ result_array.join(" ")
 end
 
 reverse_each_word("Hello there, and how are you?")
